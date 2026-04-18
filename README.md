@@ -1,5 +1,7 @@
 # iPOS Sales Automation & Financial Data Pipeline
 
+> 📂 **[VIEW FULL PROJECT PRESENTATION (PDF)](presentation/Sales_Automation_Full_Pipeline.pdf)**
+
 ## 🎯 Project Overview
 This project automates the end-to-end process of extracting daily sales data from the **iPOS (Fabi)** POS system, performing financial data transformation, and preparing it for high-level business intelligence reporting. 
 
