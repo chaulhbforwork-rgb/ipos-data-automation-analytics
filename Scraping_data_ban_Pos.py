@@ -289,27 +289,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-# # 1. Hàm parse an toàn
-# def parse_toppings(x):
-#     # 1. Nếu x đã là list rồi thì trả về luôn, không cần parse nữa
-#     if isinstance(x, list):
-#         return x
-    
-#     # 2. Kiểm tra nếu là NaN (dùng cách kiểm tra an toàn cho cả array)
-#     if pd.isna(x) is True:
-#         return []
-        
-#     # 3. Ép về string và xử lý
-#     val = str(x).strip()
-    
-#     if val in ["", "[]", "None", "nan"]:
-#         return []
-    
-#     try:
-#         # Thử dùng ast để chuyển chuỗi "[...]" thành list thật
-#         return ast.literal_eval(val)
-#     except:
-#         return []
 
 # --- EXECUTION START ---
 
