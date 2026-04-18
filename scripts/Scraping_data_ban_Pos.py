@@ -20,6 +20,7 @@ from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 
 # --- ACCOUNT CONFIGURATION ---
+# Please replace with your actual iPOS credentials
 MY_USER = "YOUR_EMAIL_HERE"
 MY_PASS = "YOUR_PASSWORD_HERE"
 
