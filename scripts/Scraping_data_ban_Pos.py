@@ -20,8 +20,8 @@ from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 
 # --- ACCOUNT CONFIGURATION ---
-MY_USER = "chaulhb@nsq.vn"
-MY_PASS = "chaulhb@123"
+MY_USER = "YOUR_EMAIL_HERE"
+MY_PASS = "YOUR_PASSWORD_HERE"
 
 tz_vn = timezone(timedelta(hours=7))
 
@@ -103,11 +103,11 @@ def get_7_day_time_range():
     return from_ts_ms, to_ts_ms, from_date_dt.strftime('%d-%m-%Y'), to_date_dt.strftime('%d-%m-%Y')
 
 STORE_MAP = {
-    "7d2805d3-1433-41b2-9026-8b0971262cdd": "Ráng Chiều",
-    "f8716c71-ebb4-49fa-abaa-17ddfc1c4c97": "Thương",
-    "8a506f0b-70e6-4531-828c-f72d5786443d": "Chạng Vạng Trần Não",
-    "4a5d2701-71d4-45d2-bc26-03c521ab9bfb": "Chạng Vạng Hàng Xanh",
-    "5b8e8a32-017a-41eb-9a3b-33107b0d1a12": "Chênh Vênh"
+    "7d2805d3-1433-41b2-9026-8b0971262cdd": "Cửa hàng A",
+    "f8716c71-ebb4-49fa-abaa-17ddfc1c4c97": "Cửa hàng B",
+    "8a506f0b-70e6-4531-828c-f72d5786443d": "Cửa hàng C",
+    "4a5d2701-71d4-45d2-bc26-03c521ab9bfb": "Cửa hàng D",
+    "5b8e8a32-017a-41eb-9a3b-33107b0d1a12": "Cửa hàng E"
 }
 
 def get_sale_change_log(headers, from_ts_ms, to_ts_ms):
